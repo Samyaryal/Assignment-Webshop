@@ -11,7 +11,7 @@ const Cart = () => {
     <div>
       {cartItems.length > 0 ? (
         cartItems.map(cart => (
-          <div>
+          <div className="cart-items">
             <img src={cart.image} height="110px" width="110px" />
             <p>{cart.name}</p>
             <button onClick={() => delAction(cart)}>Delete</button>
