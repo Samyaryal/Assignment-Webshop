@@ -11,8 +11,7 @@ Activate virtual env => source myvenv/bin/activate
 
 pip3 install -r requirements.txt 
 
-create a mysql db and add credentials to settings.py OR use the same in settings.py DATABASES =  { 'default': { 'ENGINE': 'django.db.backends.mysql', 'NAME': 'shop', HOST: 'localhost', 'USER': 'root', 'PASSWORD': 'rootuser', 'PORT': '3306' } } 
-
+create a mysql db and add credentials to settings.py 
 pip3 install mysqlclient (if not installed mysqlclient) 
 
 python3 manage.py makemigrations  then python3 manage.py migrate then python3 manage.py runserver 
