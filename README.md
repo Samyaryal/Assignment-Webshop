@@ -14,9 +14,9 @@ pip3 install -r requirements.txt
 create a mysql db and add credentials to settings.py 
 pip3 install mysqlclient (if not installed mysqlclient) 
 
-python3 manage.py makemigrations  then python3 manage.py migrate then python3 manage.py runserver 
+python3 manage.py makemigrations followed by python3 manage.py migrate and python3 manage.py runserver to run the server
 
-open http://127.0.0.1:8000/api/products  on your browser to view the server app. 
+App runs on port http://127.0.0.1:8000/api/products. 
 
  
 
@@ -30,5 +30,5 @@ npm install
 
 Npm start 
 
-Browser can be viewed in http://localhost:3000/ 
+Page can be vieweed in port http://localhost:3000/ 
  
